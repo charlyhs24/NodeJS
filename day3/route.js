@@ -27,6 +27,8 @@ module.exports = {
             case '/users':
                 renderFile('./users.html',response);
                 break;
+            case '/daniel':
+                break;
             default:
                 break;
         }
